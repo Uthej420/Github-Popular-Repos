@@ -1,0 +1,25 @@
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.language {
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.activeLanguage {
+  border: 1px solid #0284c7;
+  border-radius: 12px;
+  padding: 5px;
+  color: #0284c7;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  font-family: roboto;
+}

@@ -1,0 +1,26 @@
+.git-repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-family: Lobster;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.repo-list {
+  display: flex;
+
+  align-items: center;
+  margin: 8px;
+  flex-wrap: wrap;
+}
